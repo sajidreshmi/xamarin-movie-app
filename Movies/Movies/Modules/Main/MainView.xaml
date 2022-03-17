@@ -13,7 +13,10 @@
             <SearchBar Text="{Binding SearchTerm}"
                        SearchCommand="{Binding PerformSearchCommand}"
                        />
-            <CollectionView ItemsSource="{Binding Items}">
+            <CollectionView ItemsSource="{Binding Items}"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedMovie}"
+                            SelectionChangedCommand="{Binding MovieChangedCommand}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>

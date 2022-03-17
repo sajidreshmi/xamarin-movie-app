@@ -13,3 +13,4 @@ C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\ref\Movies.dll
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Application\App.xaml.g.cs
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Modules\Main\MainView.xaml.g.cs
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Modules\MovieDetails\MovieDetailsView.xaml.g.cs

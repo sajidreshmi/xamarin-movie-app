@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Movies.Common.Base;
+using Movies.Modules.MovieDetails;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -13,14 +14,14 @@ namespace Movies.Common.Navigation
         Task PopAsync();
     }
 
-    class NavigationService : INavigationService
+    public class NavigationService : INavigationService
     {
         private Func<INavigation> _navigation;
         private IComponentContext _container;
         private readonly Dictionary<Type, Type> _pageMap = new Dictionary<Type, Type>
         {
             // TODO: URL mapping goes here
-            //  { typeof(HistoryViewModel), typeof(HistoryView) },
+            { typeof(MovieDetailsViewModel), typeof(MovieDetailsView) },
         };
 
         public NavigationService(Func<INavigation> navigation, IComponentContext container)
@@ -28,7 +29,10 @@ namespace Movies.Common.Navigation
             _navigation = navigation;
             _container = container;
         }
+        public NavigationService()
+        {
 
+        }
         public async Task PopAsync()
         {
             await _navigation().PopAsync();

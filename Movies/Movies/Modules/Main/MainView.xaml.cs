@@ -12,10 +12,10 @@ namespace Movies
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainView : ContentPage
     {
-        public MainView()
+        public MainView(MainViewModel viewModel)
         {
             InitializeComponent();
-            BindingContext = new MainViewModel(new NetworkService());
+            BindingContext = viewModel;
         }
     }
 }

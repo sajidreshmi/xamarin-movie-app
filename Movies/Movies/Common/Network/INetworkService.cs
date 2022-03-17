@@ -2,7 +2,7 @@
 
 namespace Movies
 {
-    internal interface INetworkService
+    public interface INetworkService
     {
         Task<TResult> GetTask<TResult>(string uri);
     }

@@ -1,0 +1,43 @@
+﻿using Movies.Common.Base;
+using Movies.Common.Models;
+using Movies.Common.Navigation;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Movies.Modules.MovieDetails
+{
+    public class MovieDetailsViewModel : BaseViewModel
+    {
+        private INetworkService _networkService;
+        private INavigationService _navigationService;
+        private MovieData _movieData;
+
+        public MovieDetailsViewModel(INetworkService networkService, INavigationService navigationService)
+        {
+            _networkService = networkService;
+            _navigationService = navigationService;
+        }
+
+        public MovieData MovieData
+        {
+            get { return _movieData; }
+            set => SetProperty(ref _movieData, value);
+        }
+
+        private FullMovieInformation movieInformation;
+
+        public FullMovieInformation MovieInformation
+        {
+            get { return movieInformation; }
+            set => SetProperty(ref movieInformation, value);
+        }
+        public override async Task InitializeAsync(object parameter)
+        {
+            MovieData = parameter as MovieData;
+            MovieInformation = await _networkService.GetTask<FullMovieInformation>(ApiConstants.GetMovieById(MovieData.ImdbID));
+            //return base.InitializeAsync(parameter);
+        }
+    }
+}

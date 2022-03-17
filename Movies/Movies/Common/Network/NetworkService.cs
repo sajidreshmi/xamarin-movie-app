@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Movies
 {
-    internal class NetworkService : INetworkService
+    public class NetworkService : INetworkService
     {
         private HttpClient _httpClient;
 

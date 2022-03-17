@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Movies.Android.dll" comes first in this list. */
 		"Movies.Android.dll",
+		"Autofac.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
 		"FFImageLoading.Forms.Platform.dll",
@@ -14,6 +15,7 @@ public class MonoPackageManager_Resources {
 		"Movies.dll",
 		"Newtonsoft.Json.dll",
 		"SkiaSharp.dll",
+		"System.Diagnostics.DiagnosticSource.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

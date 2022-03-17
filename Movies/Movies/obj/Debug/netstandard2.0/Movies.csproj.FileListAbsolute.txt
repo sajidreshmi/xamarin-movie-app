@@ -3,8 +3,6 @@ C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\bin\Debug\netstandard2.
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\bin\Debug\netstandard2.0\Movies.pdb
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.csproj.AssemblyReference.cache
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\MainView.xaml.g.cs
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.AssemblyInfoInputs.cache
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.AssemblyInfo.cs
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.csproj.CoreCompileInputs.cache
@@ -13,3 +11,5 @@ C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\refint\Movies.dll
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Movies.pdb
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\ref\Movies.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Application\App.xaml.g.cs
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies\obj\Debug\netstandard2.0\Modules\Main\MainView.xaml.g.cs

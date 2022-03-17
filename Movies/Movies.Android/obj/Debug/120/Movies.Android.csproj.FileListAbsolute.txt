@@ -669,3 +669,10 @@ C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\s
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\Autofac.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\Autofac.pdb
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\System.Collections.Concurrent.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\System.Diagnostics.Tracing.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\System.Memory.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.Android\obj\Debug\120\android\assets\System.Runtime.InteropServices.dll

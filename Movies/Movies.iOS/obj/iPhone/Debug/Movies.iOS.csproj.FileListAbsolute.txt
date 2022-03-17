@@ -78,3 +78,6 @@ C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\obj\iPhone\Debug\Mo
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\obj\iPhone\Debug\Movies.iOS.csproj.CopyComplete
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\obj\iPhone\Debug\Movies.iOS.exe
 C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\obj\iPhone\Debug\Movies.iOS.pdb
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\bin\iPhone\Debug\Autofac.dll
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\bin\iPhone\Debug\Autofac.pdb
+C:\Users\sajid\Xamarin\source\repos\Movies\Movies\Movies.iOS\bin\iPhone\Debug\System.Diagnostics.DiagnosticSource.dll

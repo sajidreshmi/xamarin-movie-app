@@ -17,5 +17,10 @@ namespace Movies.Modules.MovieDetails
             InitializeComponent();
             BindingContext = viewModel;
         }
+        async void FavoriteButton_Clicked(object sender, EventArgs e)
+        {
+            await imageButton.ScaleTo(1.3, 200);
+            await imageButton.ScaleTo(1, 200);
+        }
     }
 }
